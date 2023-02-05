@@ -79,7 +79,7 @@ table {
     font-size: 1.5vw;
 }
 a {
-    color:rgb(153, 204, 255);
+    color:rgb(154, 206, 230);
 }
 a:link {
     color:rgb(2, 93, 118);
@@ -92,7 +92,7 @@ a:hover {
     transform: scale(1.5);
     font-size: 18pt;
 }
-#gsuCS {
+#gsuCS{
     grid-column-start:3;
 }
 #quote {
@@ -105,5 +105,17 @@ a:hover {
     font-size: 2.5vw;
 }
 #quote h3{
+    font-size: 2.5vw;
+}
+#linkedin h2 {
+    font-size: 2.0vw;
+}
+#linkedin a:hover {
+    font-size: 2.5vw;
+}
+#gsuCS h2 {
+    font-size: 2.0vw;
+}
+#gsuCS a:hover {
     font-size: 2.5vw;
 }
