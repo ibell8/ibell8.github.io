@@ -1,0 +1,109 @@
+body {
+    background-image: url('./img/backgroundImage.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity : 1;
+    font-family: Arial, sans-serif;
+}
+@media only screen and (max-width: 1200px) {
+    body {
+      background-image: url('./img/backgroundImage.jpeg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      opacity : 1;
+    }
+}
+#entire {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#topContainer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    padding: 10px;
+}
+#selfieBox {
+    padding : 5px;
+    text-align: center;
+    color: rgb(218, 216, 216);
+    float: left;
+}
+#headshot {
+    height: 10em;
+    display: inline-block;
+    width: 75%;
+    height: 55%;
+}
+#workTable tr:nth-child(odd) {
+    background-color: #747373;
+    color: white;
+}
+#workTable tr:nth-child(even) {
+    background-color: #373232;
+    color:white;
+}
+table {
+    width: 100%;
+    height: 100%;
+}
+#workTable {
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#interestList {
+    color: white;
+    overflow: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float: left;
+    justify-content: center;
+    width: 65%;
+    font-size: 2vw;
+}
+#interestList a:hover {
+    font-size: 3vw;
+}
+#career {
+    color: white;
+    overflow: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float: right;
+    justify-content: center;
+}
+#career p{
+    font-size: 1.5vw;
+}
+a {
+    color:rgb(153, 204, 255);
+}
+a:link {
+    color:rgb(2, 93, 118);
+    text-decoration: none;
+    transition: all 0.4s ease-in-out;
+}
+a:hover {
+    color: rgb(154, 156, 172);
+    text-decoration: underline;
+    transform: scale(1.5);
+    font-size: 18pt;
+}
+#gsuCS {
+    grid-column-start:3;
+}
+#quote {
+    border: 5px solid black;
+    color : rgb(153, 204, 255);
+    float: right;
+    width: 25%;
+}
+#quote p{
+    font-size: 2.5vw;
+}
+#quote h3{
+    font-size: 2.5vw;
+}
