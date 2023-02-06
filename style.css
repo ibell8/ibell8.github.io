@@ -54,6 +54,12 @@ table {
     margin-top: 10px;
     margin-bottom: 10px;
 }
+#workTable a:hover{
+    color: rgb(154, 156, 172);
+    text-decoration: underline;
+    transform: scale(1.5);
+    font-size: 12pt;
+}
 #interestList {
     color: white;
     overflow: auto;
@@ -118,4 +124,11 @@ a:hover {
 }
 #gsuCS a:hover {
     font-size: 2.5vw;
+}
+span {
+    color:red;
+}
+#opening  {
+    text-align : center;
+    color:white;
 }
