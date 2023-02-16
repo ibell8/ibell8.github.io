@@ -120,13 +120,13 @@ a:hover {
     font-size: 2.5vw;
 }
 #gsuCS h2 {
-    font-size: 2.0vw;
+    font-size : 2.0vw;
 }
 #gsuCS a:hover {
     font-size: 2.5vw;
 }
 span {
-    color:red;
+    color :red;
 }
 #opening  {
     text-align : center;
